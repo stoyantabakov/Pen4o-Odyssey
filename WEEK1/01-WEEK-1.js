@@ -5,3 +5,5 @@ function isTriangleValid (a, b, c) {
         console.log(`The Triangle of Truth with sides ${a}, ${b} and ${c} is invalid. Pen4o remains stuck!`);
     }
 }
+
+isTriangleValid(3, 4, 5);
