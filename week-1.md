@@ -1,3 +1,4 @@
+
 # Pen4o’s Odyssey – Week 1
 
 Пенчо е програмист със страст към приключенията и се озовава пред Камъка на началото - древен артефакт, 
@@ -11,11 +12,11 @@
 Напишете функция, която приема три числа - размерите на трите страни на триъгълник. Определете дали триъгълникът е валиден, 
 или не, спрямо теоремата за неравенство на триъгълника.
 
-## Вход
+### Вход
 
 - Три числа - размерите на страните на триъгълника
 
-# Изход
+### Изход
 
 - Ако триъгълникът е валиден, да се отпечата на конзолата:
     - “The Triangle of Truth with sides {размер на първата страна}, {размер на втората страна}, 
@@ -25,19 +26,13 @@
     - "The Triangle of Truth with sides {размер на първата страна}, {размер на втората страна}, 
     and {размер на третата страна} is invalid. Pen4o remains stuck!”
 
-# Примери
 
-ВХОД 
-3, 4, 5
+### Примери
 
-ИЗХОД 
-The Triangle of Truth with sides 3, 4, and 5 has been validated. en4o, you may begin your journey!
+|   ВХОД   |   ИЗХОД   |
+| -------- | --------- | 
+| 3, 4, 5  | The Triangle of Truth with sides 3, 4, and 5 has been validated. Pen4o, you may begin your journey! |
+| 1, 2, 3  | The Triangle of Truth with sides 1, 2, and 3 is invalid. Pen4o remains stuck! |
 
------
 
-ВХОД
-1, 2, 3
-
-ИЗХОД
-The Triangle of Truth with sides 1, 2, and 3 is invalid. Pen4o remains stuck!
 
