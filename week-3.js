@@ -1,33 +1,33 @@
-function decodingCipher(chipher) {
+function decodingChipher(chipher) {
 
     let upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
     let smallCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
     let digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-    let decodeChipher = '';
-    let totalPower = 0;
+    let decodedMessage = '';
+    let cardPower = 0;
 
     for (let i = 0; i < chipher.length; i++) {
         let chipherChar = chipher[i];
 
         if (smallCase.includes(chipherChar)) {
-            decodeChipher += chipherChar.toUpperCase();
+            decodedMessage += chipherChar.toUpperCase();
         } else if (upperCase.includes(chipherChar)) {
-            decodeChipher += chipherChar.toLowerCase();
+            decodedMessage += chipherChar.toLowerCase();
         } else if (digits.includes(chipherChar)) {
-            totalPower += Number(chipherChar);
-            decodeChipher += chipherChar;
+            cardPower += Number(chipherChar);
+            decodedMessage += chipherChar;
         } else {
-            decodeChipher += chipherChar;
+            decodedMessage += chipherChar;
         }
     }
 
-    console.log(decodeChipher);
+    console.log(decodedMessage);
 
-    if (totalPower > 20) {
-        console.log(`The map reveals the your next location! Total power: ${totalPower}`);
+    if (cardPower > 20) {
+        console.log(`The map reveals the your next location! Total power: ${cardPower}`);
     } else {
-        console.log(`The map warns of danger! Total power: ${totalPower}`);
+        console.log(`The map warns of danger! Total power: ${cardPower}`);
     }
 }
 
-decodingCipher('Dangerous_2Clue');
+decodingChipher('Dangerous_2Clue');
