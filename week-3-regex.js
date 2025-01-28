@@ -23,7 +23,7 @@ function decodingChipher(chipher) {
     console.log(decodedMessage);
 
     if (cardPower > 20) {
-        console.log(`The map reveals the your next location! Total power: ${cardPower}`);
+        console.log(`The map reveals your next location! Total power: ${cardPower}`);
     } else {
         console.log(`The map warns of danger! Total power: ${cardPower}`);
     }
