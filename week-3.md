@@ -30,8 +30,8 @@
 
 | **Вход** | **Изход** |
 | --- | --- |
-| "T3r4p_M4p” | t3R4P_m4P<br />The map warns of danger! Total power: 14 |
-| "SecreT_tRe4sure!” | sECREt_TrE4SURE!<br />The map reveals your next location! Total power: 24 |
+| "T3r4p_M4p” | t3R4P_m4P<br />The map warns of danger! Total power: 11 |
+| "SecreT_tRe4sure!” | sECREt_TrE4SURE!<br />The map warns of danger! Total power: 4 |
 | "Dangerous_2Clue” | dANGEROUS_2cLUE<br />The map warns of danger! Total power: 2 |
 
 ### Допълнително предизвикателство
